@@ -1,0 +1,8 @@
+train: yolov5-dataset-2-1/train/images
+val: yolov5-dataset-2-1/valid/images
+
+
+nc: 6
+
+names: ['negative','person','car','van','truck','bus']
+

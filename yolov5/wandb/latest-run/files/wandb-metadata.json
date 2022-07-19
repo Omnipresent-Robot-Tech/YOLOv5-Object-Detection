@@ -1,0 +1,40 @@
+{
+    "os": "Linux-5.4.0-99-generic-x86_64-with-glibc2.27",
+    "python": "3.9.6",
+    "heartbeatAt": "2022-02-10T11:34:56.562739",
+    "startedAt": "2022-02-10T11:34:54.770489",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1080",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": "10.1.168",
+    "args": [
+        "--img",
+        "416",
+        "--batch",
+        "16",
+        "--epochs",
+        "400",
+        "--data",
+        "/home/omni/Train_YOLOv5/yolov5/yolov5-dataset-2-1/data.yaml",
+        "--cfg",
+        "./models/custom_yolov5l.yaml",
+        "--weights",
+        "",
+        "--name",
+        "yolov5s_results",
+        "--cache"
+    ],
+    "state": "running",
+    "program": "/home/omni/Train_YOLOv5/yolov5/train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/ultralytics/yolov5",
+        "commit": "886f1c03d839575afecb059accf74296fad395b6"
+    },
+    "email": "patelkvin04@gmail.com",
+    "root": "/home/omni/Train_YOLOv5/yolov5",
+    "host": "omni-MS-7817",
+    "username": "omni",
+    "executable": "/home/omni/miniconda3/envs/testenv/bin/python"
+}
